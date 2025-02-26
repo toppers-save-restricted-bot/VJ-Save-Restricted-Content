@@ -63,8 +63,12 @@ async def send_start(client: Client, message: Message):
     buttons = [[
         InlineKeyboardButton("❣️ Developer", url = "https://t.me/UncleChipssBot")
     ],[
+        InlineKeyboardButton('📊 ᴄʜᴇᴄᴋ ʙᴏᴛs ʟɪᴠᴇ sᴛᴀᴛᴜs', url='https://stats.uptimerobot.com/BvwOqvUrje/798651206')
+        ],[
+        
         InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/supertoppers0'),
         InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ɢʀᴏᴜᴘ', url='https://t.me/supertoppers')
+        
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
